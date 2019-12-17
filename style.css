@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.css-4xipnm, [data-css-4xipnm] {
+  margin-left: 1px!important;
+  text-overflow: initial!important;
+  white-space: unset!important;
+  overflow: hidden!important;
+  flex: 1 1 auto!important;
+  font-size: 10px!important;
+}

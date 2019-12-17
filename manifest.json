@@ -1,0 +1,15 @@
+{
+  "name": "circle-ci-workflow-my-style",
+  "author": "",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "web_accessible_resources": ["*"],
+  "permissions": [""],
+  "content_scripts": [
+    {
+      "matches": ["https://circleci.com/workflow-run/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
